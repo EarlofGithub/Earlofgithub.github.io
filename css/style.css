@@ -1,0 +1,355 @@
+/*Header navigation*/
+.topnavigation {
+  display: flex;
+  height: 40px;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: verdana, sans-serif;
+  margin: 10px;
+  padding: 0px 20px 30px;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(3, 97, 3);;
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+}
+
+/*Headings*/
+.header {
+  text-align: center;
+  color: rgb(235, 243, 235);
+  font-size: 35px;
+  font-family: verdana, sans-serif;
+  clear: left;
+  margin: 10px;
+  padding: 50px 50px 50px;
+  position: relative;
+  z-index: 2;
+  background-image: url('../images/kowhai.jpg');
+  background-position: center;
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+}
+  
+/*Sub-headings*/
+h2 {
+  text-align:center;
+  color:rgb(3, 97, 3); 
+  font-size:30px;
+  font-family: verdana, sans-serif;
+}
+
+/*Other text*/
+h4, h5, p {
+  text-align: center;
+  color: rgb(3, 97, 3);
+  font-family: verdana, sans-serif;
+}
+
+/*Maori Proverb*/
+.proverb {
+  color: rgb(3, 97, 3);
+  clear: left;
+  text-align: center;
+  padding: 0px 0px 30px;
+  text-decoration:none;
+  font-family: verdana, sans-serif;
+}
+
+/*Links on Home page*/
+.links-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 10px;
+  margin: 0px;
+  color: rgb(3, 97, 3);
+}
+
+.link-text {
+  color:rgb(237, 243, 237);
+  text-decoration:none;
+  font-family: verdana, sans-serif;
+}
+
+.links-box1 {
+  flex: 1;
+  margin: 20px 100px 20px;
+  padding: 10px 40px 10px;
+  color:rgb(237, 243, 237);
+  text-align:right;
+  background-color: rgb(173, 20, 219);
+}
+
+.links-box2 {
+  flex: 1;
+  margin: 20px 100px 20px;
+  padding: 10px 40px 10px;
+  color:rgb(237, 243, 237);
+  text-align:left;
+  background-color: rgb(7, 118, 192);
+}
+
+.links-box1:hover a,
+.links-box2:hover a {
+  color: rgb(219, 55, 26);
+  font-size: 1.1em;
+}
+  
+/*Contact Us*/
+.map {
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column; 
+}
+
+.contact {
+  margin: 10px;
+  margin-right: 100px;
+}
+
+.location-map {
+  height: 350px;
+  width: 350px;
+  margin: 10px;
+  margin-left: 100px;
+}
+  
+/*Menu*/
+.appetizers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0px;
+  margin: 10px 300px 10px;
+}
+
+.appetizers img {
+  flex: 1;
+  max-width: 550px;
+  height: 300px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.appetizers-text {
+  color: rgb(3, 97, 3);
+  text-align: center;
+  font-family: verdana, sans-serif;
+}
+
+.mains {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0px;
+  margin: 10px 300px 10px;
+}
+
+.mains img {
+  flex: 1;
+  max-width: 550px;
+  height: 300px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.mains-text {
+  color: rgb(3, 97, 3);
+  text-align: center;
+  font-family: verdana, sans-serif;
+}
+
+.desserts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0px;
+  margin: 10px 300px 10px;
+}
+
+.desserts img {
+  flex: 1;
+  max-width: 550px;
+  height: 300px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.desserts-text {
+  color: rgb(3, 97, 3);
+  text-align: center;
+  font-family: verdana, sans-serif;
+}
+
+.drinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0px;
+  margin: 10px 300px 10px;
+}
+
+.drinks img {
+  flex: 1;
+  max-width: 550px;
+  height: 300px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.drinks-text {
+  color: rgb(3, 97, 3);
+  text-align: center;
+  font-family: verdana, sans-serif;
+}
+
+/*Reservations*/
+iframe {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+/*images*/
+.image-restaurant, 
+.image-table {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.image-restaurant img, 
+.image-table img {
+  display: block; 
+  margin: 0 auto; 
+  max-width: 100%; 
+  height: auto;
+}
+
+/*Hours*/
+.hours {
+  color: rgb(3, 97, 3);
+  clear: left;
+  text-align: center;
+  padding: 0px 0px 30px;
+  text-decoration:none;
+  font-family: verdana, sans-serif;
+}
+
+/*Contact Us*/
+.contact {
+  margin: 10px;
+  margin-right: 100px;
+  text-align: center;
+  color: rgb(3, 97, 3);
+  font-family: verdana, sans-serif;
+}
+
+.location-map {
+  text-align: center;
+  height: 350px;
+  width: 350px;
+  margin: 10px;
+  margin-left: 100px;
+}
+
+/*Footer*/
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; 
+  font-family: verdana, sans-serif;
+  height: 40px;
+  margin: 10px;
+  padding: 0px 10px;
+  font-size: 20px;
+  color: rgb(3, 97, 3);
+}
+
+.footer-container a {
+  text-decoration: none;
+  color: rgb(3, 97, 3); 
+  padding: 5px 10px;
+}
+
+/*Mobile Application*/
+@media only screen and (max-width: 480px) {
+  .topnavigation {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .proverb {
+    width: 100%;
+    align-items: center;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    font-size: 0.7em;
+  }
+
+  .links-container {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+
+  h1 {
+    font-size: 1.3em;
+    padding: 10px 10px;
+    margin: 10px 10px;
+  }
+
+  h2, h3, h4, h5 {
+    font-size: 1.3em;
+    padding: 10px 10px;
+    margin: 10px 10px;
+  }
+
+  .appetizers,
+  .mains,
+  .desserts,
+  .drinks {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+}
+
+/*Links*/
+a:link {
+  color: rgb(3, 97, 3);
+  text-decoration:none;
+}
+
+.link-text:hover {
+  color: rgb(128, 214, 109); 
+}
+
+.navlinks:hover {
+  color: rgb(240, 46, 12);
+}
+
+a:visited {
+  color:rgb(107, 8, 107);
+}
